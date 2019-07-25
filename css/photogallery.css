@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  height: 50%;
+  width: 50%;
+  object-fit: cover;
+
+}
+.bigImage{
+  height: 500px;
+  width: 500px;
+}
+#alignInFour {
+  width: 500px;
+  height: 500px;
+  border: 0px solid transparent;
+  /* margin: 20px; */
+}
+.flexbox{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.box1{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-wrap: wrap;
+
+}
+
+.box2{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.box3{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.box4{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
